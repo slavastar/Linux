@@ -17,13 +17,15 @@ yum install boost
 yum install boost-devel
 yum install ncurses-devel
 make
-bastet (Запуск тетриса)
+bastet
 
-Далее добавляю в Makefile
-
+nano Makefile
+>>
 install:
-	cp $(PROGNAME) /usr/bin
-	chmod 755 /usr/bin/$(PROGMINE)
+	cp bastet /usr/bin
+	chmod -R 777 /usr/bin/
+	echo "Hello, Slava!"
+>>
 
 3. Создайте файл task3.log, в который выведите список всех установленных пакетов.
 
