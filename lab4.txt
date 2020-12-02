@@ -12,7 +12,7 @@ Makefile, добавив в него раздел install. Обеспечьте 
 /usr/bin с установкой соответствующих прав доступа. Выполните установку и проверьте, что любой
 пользователь может запустить установленный пакет.
 
-tar -xvf bastet-0.43.tar -C /archive
+tar -xvf bastet-0.43.tar -C /sss
 yum install boost
 yum install boost-devel
 yum install ncurses-devel
